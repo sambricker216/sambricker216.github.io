@@ -3,7 +3,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-size: calc(10px + 2vmin);
+  font-size: 16px;
   color: rgb(211, 91, 52);
   padding-left: 2%;
   padding-right: 2%;
@@ -25,9 +25,15 @@ h2.title {
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: rgb(211, 91, 52) !important;
   color: black !important;
+  border-color: black;
 }
 
 .custom-navbar .navbar-brand,
 .custom-navbar .nav-link {
   color: rgb(211, 91, 52) !important
+}
+
+.custom-accordion{
+  color:black !important;
+  background-color: rgb(211, 91, 52) !important;
 }

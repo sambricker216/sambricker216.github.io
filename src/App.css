@@ -5,19 +5,29 @@
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: rgb(211, 91, 52);
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 hr.solid {
   border-top: 3px solid #bbb;
   width: 98%;
   border-color: rgb(211, 91, 52);
+  align-self: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h2.title {
-  margin-bottom: 0;
   text-align: center;
 }
 
-div.navBar{
-  padding-left: 2%;
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: rgb(211, 91, 52) !important;
+  color: black !important;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: rgb(211, 91, 52) !important
 }

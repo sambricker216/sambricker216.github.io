@@ -25,7 +25,7 @@ h2.title {
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: rgb(211, 91, 52) !important;
   color: black !important;
-  border-color: black;
+  border-color: black !important;
 }
 
 .custom-navbar .navbar-brand,

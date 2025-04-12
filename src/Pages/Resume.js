@@ -29,7 +29,6 @@ function Resume(){
 		<div>
 			<Container style={{float: 'left'}}>
 					<Button onClick={resumeDownload}>Download Resume</Button>
-					<text style={{paddingLeft: '2%'}}>Last Updated 4/11/2025</text>
 			</Container>
 			<br></br>
 			<Accordion style={{paddingTop: '2%'}}>

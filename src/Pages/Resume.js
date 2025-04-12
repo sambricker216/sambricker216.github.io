@@ -29,16 +29,17 @@ function Resume(){
 		<div>
 			<Container style={{float: 'left'}}>
 					<Button onClick={resumeDownload}>Download Resume</Button>
-					<text style={{paddingLeft: '2%'}}>Last Updated 4/10/2025</text>
+					<text style={{paddingLeft: '2%'}}>Last Updated 4/11/2025</text>
 			</Container>
 			<br></br>
-			<Accordion class='accordion' style={{paddingTop: '2%'}}>
+			<Accordion style={{paddingTop: '2%'}}>
 				<Accordion.Item eventKey='0'>
 					<Accordion.Header>Education</Accordion.Header>
 					<Accordion.Body>
 						<b>University of Florida</b>
 						<br/>
-						<text>Bachelor of Science in Computer Science, Minor in Business Administration</text>
+						<text>Bachelor of Science in Computer Science with a 
+							Minor in Business Administration</text>
 						<br/>
 						<text>June 2020 - May 2024</text>
 						<br/>

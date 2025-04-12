@@ -33,7 +33,21 @@ h2.title {
   color: rgb(211, 91, 52) !important
 }
 
-.custom-accordion{
-  color:black !important;
+.accordion-button {
   background-color: rgb(211, 91, 52) !important;
+  color: black !important;
+  border-color: none;
+}
+
+.accordion-body {
+  background-color: rgb(211, 91, 52) !important;
+  color: black !important;
+}
+
+a:link{
+  color: black
+}
+
+a:visited{
+  color: black
 }

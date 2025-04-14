@@ -3,10 +3,17 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button'
 import { Accordion, AccordionBody, AccordionItem, Col, Container, Row } from 'react-bootstrap';
 import { useState } from 'react';
+import { Page, Document, pdfjs } from 'react-pdf';
+
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+	'pdfjs-dist/build/pdf.worker.min.mjs',
+	import.meta.url,
+  ).toString();
 
 function Resume(){
 	const [activeKey, setActiveKey] = useState(null)
 	const [expActiveKey, setExpActiveKey] = useState(null)
+  const [previewRes, setPreviewRes] = useState(false)
 
 	const handleActiveToggle = (key) => {
     setActiveKey(prevKey => (prevKey === key ? null : key));
@@ -25,11 +32,27 @@ function Resume(){
 			document.body.removeChild(link);
 	}
 
+  function togglePreview(){
+    setPreviewRes(!previewRes)
+  }
+
 	return(
 		<div>
 			<Container style={{float: 'left'}}>
 					<Button onClick={resumeDownload}>Download Resume</Button>
+          <Button onClick={togglePreview} style={{marginLeft: '5'}}>Preview Resume</Button>
 			</Container>
+      <br></br>
+			{previewRes && <Container style={{paddingTop: '2%', justifyItems: 'center'}}>
+				<Document file="Samuel Bricker Resume.pdf">
+					<Page 
+            size="A1" 
+            renderTextLayer={false}
+            renderAnnotationLayer={false}
+            customTextRenderer={false} 
+            pageNumber={1}/>
+				</Document>
+			</Container>}
 			<br></br>
 			<Accordion style={{paddingTop: '2%'}}>
 				<Accordion.Item eventKey='0'>

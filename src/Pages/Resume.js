@@ -110,7 +110,8 @@ function Resume(){
 								<Col>
 									<a 
 										href='https://github.com/sambricker216/personal-site'
-										target="_blank">
+										target="_blank"
+										rel="noreferrer">
 										Personal Site
 									</a>
 								</Col>
@@ -120,7 +121,8 @@ function Resume(){
 								<Col> 
 									<a 
 										href='https://github.com/SkylarStewart/Pixel-Pundits'
-										target="_blank">
+										target="_blank"
+										rel="noreferrer">
 										Pixel Pundits
 									</a>
 								</Col>
@@ -130,7 +132,8 @@ function Resume(){
 								<Col>
 									<a 
 										href='https://github.com/sambricker216/ContagionSim'
-										target="_blank">
+										target="_blank"
+										rel="noreferrer">
 										Contagion Simulator
 									</a>
 								</Col>
@@ -140,7 +143,8 @@ function Resume(){
 								<Col>
 									<a 
 										href='https://github.com/sambricker216/Calculator'
-										target="_blank">
+										target="_blank"
+										rel="noreferrer">
 										Calculator
 									</a>
 								</Col>

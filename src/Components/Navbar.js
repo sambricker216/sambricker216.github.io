@@ -11,7 +11,7 @@ function Navigationbar(){
 		<Navbar className="navbar navbar-expand-lg custom-navbar">
 			<Nav>
 				<Nav.Link href="/"><h5>Homepage</h5></Nav.Link>
-				<Nav.Link href="/resume"><h5>Resume</h5></Nav.Link>
+				<Nav.Link href="/#/resume"><h5>Resume</h5></Nav.Link>
 				<Nav.Link href="https://github.com/sambricker216" target="_blank" rel="noopener noreferrer">
 					<h5>GitHub</h5>
 				</Nav.Link>

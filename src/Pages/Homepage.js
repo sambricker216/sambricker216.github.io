@@ -22,7 +22,7 @@ export default function Homepage(){
 							I am currently looking for my next opportunity to work in the field.  I’m especially 
 							interested in roles related to web development or database engineering, but I’m open 
 							to working in any area. Between my coursework at the University of Florida and previous
-							employment, I've developed experience working in web development (fron and back end) and
+							employment, I've developed experience working in web development (front and back end) and
 							ETL processes. I also have experience working with multiple languages and frameworks, such
 							as Python, SQL, React, and Java.
 						</p>

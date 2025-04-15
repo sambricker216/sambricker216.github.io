@@ -1,10 +1,9 @@
 .App-header {
-  background-color: black;
-  min-height: 100vh;
+  background-color: darkgray;
   display: flex;
   flex-direction: column;
   font-size: 16px;
-  color: rgb(211, 91, 52);
+  color: black;
   padding-left: 2%;
   padding-right: 2%;
 }

@@ -1,22 +1,22 @@
-import { Image, Row, Col, Container } from 'react-bootstrap';
+import { Image, Row, Col, Container, Button } from 'react-bootstrap';
 import '../App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function Homepage(){
 	return(
 		<div className="App-header">
-			<h3>About me</h3>
 			<Container className="mt-4">
 				<Row>
 					<Col>
 						<Image
 							src="https://placehold.co/300x200"
 							rounded
-							className="float-start me-3 mb-3"
 						/>
+					</Col>
+					<Col>
 						<p>
 							Hello there. I'm Samuel Bricker, an aspiring software engineer and graduate of
-							the Univeristy of Florida {'\u{1F40A}'} {'\u{1F40A}'} from Boca Raton, FL.
+							the Univeristy of Florida from Boca Raton, FL.
 						</p>
 						<p>
 							I am currently looking for my next opportunity to work in the field.  I’m especially 
@@ -27,9 +27,9 @@ export default function Homepage(){
 							as Python, SQL, React, and Java.
 						</p>
 						<p>
-							Links to my GitHub and LinkedIn can be found in the navigation bar at the top of the page.
-							I can also be reached by email at sbricker216@gmail.com. My resume can be viewed
-							and downloaded on the resume page. Thanks for visiting!
+							Further information can be found on my <a href="https://www.linkedin.com/in/samuel-bricker/" target="_blank">
+							LinkedIn</a> and <a href="https://github.com/sambricker216" target="_blank"> GitHub </a> pages. I can also be
+							reached by email at sbricker216@gmail.com.
 						</p>
 					</Col>
 				</Row>

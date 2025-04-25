@@ -9,7 +9,8 @@ export default function Homepage(){
 				<Row>
 					<Col>
 						<Image
-							src="https://placehold.co/300x200"
+							width='300'
+							src="profile_pic.jpeg"
 							rounded
 						/>
 					</Col>

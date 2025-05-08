@@ -4,6 +4,38 @@ function ProjectAccordion(){
     return (
       <Accordion.Body>
 				<Accordion>
+					<Accordion.Item eventKey='4'>
+						<Accordion.Header>
+							LanPoker (WIP)
+						</Accordion.Header>
+						<Accordion.Body>
+							<Container>
+								<Row>
+									<Col>
+										<a 
+											href='https://github.com/sambricker216/personal-site'
+											target="_blank"
+											rel="noreferrer">
+											Link to Repo
+										</a>
+									</Col>
+									<Col>
+										<b>Language</b>: Python
+									</Col>
+								</Row>
+								<Row>
+									<p>
+										This is a project I am currently working on to run a CLI based poker game on a LAN. The poker 
+										part is being done through object oriented principals, starting at with the Game class. The
+										Game class is responsible for handling game states: generating hands, cycling through hands,
+										determining winning hands, etc. There is also a Player class for handling a specific player's
+										state, such as what cards they have and what actions they take. The websocket will be
+										split in the host, which runs the game class, and the client class, which the players run.
+									</p>
+								</Row>
+							</Container>
+						</Accordion.Body>
+					</Accordion.Item>
 					<Accordion.Item eventKey='0'>
 						<Accordion.Header>
 							Personal Site
@@ -42,12 +74,23 @@ function ProjectAccordion(){
 							<Container>
 								<Row>
 									<Col>
-										<a 
-											href='https://github.com/SkylarStewart/Pixel-Pundits'
-											target="_blank"
-											rel="noreferrer">
-											Link to Repo
-										</a>
+										<text>
+											<a 
+												href='https://github.com/SkylarStewart/Pixel-Pundits'
+												target="_blank"
+												rel="noreferrer">
+												Link to Repo
+											</a>
+
+											{" "}
+
+											<a
+												href='https://skylarstewart.github.io/Pixel-Pundits/#/login?redirectTo=/'
+												target="_blank"
+												rel="noreferrer">
+												Link to Site
+											</a>
+										</text>
 									</Col>
 									<Col>
 										<b>Languages</b>: React, Javascript, Typescript, CSS
@@ -61,7 +104,7 @@ function ProjectAccordion(){
 										search for cards they want, and offer to trade cards with other users. I was involved with
 										most of the front end development, designing many of the page layouts and overall UI. I
 										also designed the API calls to the Scryfall API, where we got data about the card (including
-										images an pricing).
+										images and pricing).
 									</p>
 								</Row>
 							</Container>
@@ -122,7 +165,7 @@ function ProjectAccordion(){
 								<Row>
 									<p>
 										This project was influenced by the semester long project of the University of
-										Florida's Programming Langauge COncepts course. The goal of this project was
+										Florida's Programming Langauge Concepts course. The goal of this project was
 										to take a fictional programming langauge and convert it into executable Java code.
 										This was done by taking the fictional code through a series of steps: breaking the
 										text down into tokens through regex, grouping the tokens into abstract syntax trees,

@@ -1,0 +1,93 @@
+{
+    "Education":[
+        {
+            "School": "University of Florida",
+            "Degree": "Bachelor of Science in Computer Science with a Minor in Business Administration",
+            "Duration": "June 2020 - May 2024",
+            "GPA": "3.26/4.00"
+        }
+    ],
+    "WorkExperience":[
+        {
+            "Company": "Skyline Analytics",
+            "Title": "Junior ETL Software Engineer",
+            "Duration": "December 2024-March 2025",
+            "Location": "Boca Raton, FL",
+            "Responsibilities": [
+                "Developed and deployed Microsoft Azure function apps to retrieve and store client data from multiple APIs in internal databases",
+                "Designed and optimized database views to enable financial analysts to accurately and clearly assess aggregated client data",
+                "Built an automated testing program to verify that client report emails were correctly sent and formatted from an internal tool"
+            ]
+        },
+        {
+            "Company": "Agency Pipe",
+            "Title": "Software Engineering Intern",
+            "Duration": "June 2023-October 2024",
+            "Location": "Delray Beach, FL",
+            "Responsibilities": [
+                "Contributed to backend development by implementing processes for account management, data automation uploads, and building an internal REST API",
+                "Developed a batch processing system that enables users to integrate their data with existing systems, enhancing data accessibility and usability"
+            ]
+        },
+        {
+            "Company": "Family Business Funding",
+            "Title": "Information Technology Intern",
+            "Duration": "January 2023-December 2023",
+            "Location": "Boca Raton, FL",
+            "Responsibilities": [
+                "Directed the transition to OrgMeter, an external CRM software, to streamline business operations and ensure data organization",
+                "Facilitated communication between employees and CRM software development teams, ensuring the software met both employee and client needs",
+                "Led the migration of data for over 1,000 clients into customer relationship management (CRM) software"
+            ]
+        }
+    ],
+    "Projects":[
+        {
+            "Name": "LanPoker (WIP)",
+            "URL": "https://github.com/sambricker216/lanpoker",
+            "Languages": "Python",
+            "Description": "This is a project I am currently working on to run a CLI based poker game on a LAN. The poker part is being done through object oriented principals, starting at with the Game class. The Game class is responsible for handling game states: generating hands, cycling through hands, determining winning hands, etc. There is also a Player class for handling a specific player's state, such as what cards they have and what actions they take. The websocket will be split in the host, which runs the game class, and the client class, which the players run."
+        },
+        {
+            "Name": "Personal Site",
+            "URL": "https://github.com/sambricker216/personal-site",
+            "Languages": "React, Javascript, CSS",
+            "Description": "This is the project you're looking at right now. It's my chance to compile everything I've done into one, easy access location. All my projects, work experience, langauge and framework knowledge are all listed here. My resume can also be previewed and downloaded at the bottom of the page."
+        },
+        {
+            "Name": "Pixel Pundits",
+            "URL": "https://github.com/SkylarStewart/Pixel-Pundits",
+            "Host": "https://skylarstewart.github.io/Pixel-Pundits/#/login?redirectTo=/",
+            "Languages": "React, Javascript, Typescript, CSS",
+            "Description": "This is my Senior Project I worked on at the University of Florida. It is a web app that serves as a trading platform for players of the Magic the Gathering trading card game. The app works like a digital marketplace where users can upload their collection, search for cards they want, and offer to trade cards with other users. I was involved with most of the front end development, designing many of the page layouts and overall UI. I also designed the API calls to the Scryfall API, where we got data about the card (including images and pricing)."
+        },
+        {
+            "Name": "Contagion Simulator",
+            "URL": "https://github.com/sambricker216/ContagionSim",
+            "Languages": "Python",
+            "Description": "Inspired by the recent COVID pandemic, I wanted to create a way to simulate virus transmission within a population. To this end, I created the Contagion Simulator. The program works by taking in a variety of user set factors, such as population size, lethality, and immunity. It then runs randomly generated cycles to see various outcomes of those inputs. For example, if a user wanted to see what effect natural immunity header on the spread of a virus, they could set the built up immunity value to really high. The UI is built through the Pygame library."
+        },
+        {
+            "Name": "Calculator",
+            "URL": "https://github.com/sambricker216/Calculator",
+            "Languages": "Java",
+            "Description": "This project was influenced by the semester long project of the University of Florida's Programming Langauge Concepts course. The goal of this project was to take a fictional programming langauge and convert it into executable Java code. This was done by taking the fictional code through a series of steps: breaking the text down into tokens through regex, grouping the tokens into abstract syntax trees, type checking the values, and finally transalting from there. The Calculator is built on that premise. The user provides a mathematical expression that is ran through a similar series of steps, except a calulation is made instead of translating to Java code. The UI was done through JFrame and testing was done through JUnit."
+        }
+    ],
+    "LT":{
+        "Languages": [
+            "Python",
+            "SQL",
+            "Java",
+            "React/Javascript",
+            "C++",
+            "C#/.NET"
+        ],
+        "Technologies":[
+            "Microsoft SQL Server",
+            "Postgres DB",
+            "Git",
+            "Microsft Azure"
+        ]
+    }
+}

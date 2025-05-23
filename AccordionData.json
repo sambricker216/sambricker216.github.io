@@ -89,5 +89,12 @@
             "Git",
             "Microsft Azure"
         ]
-    }
+    },
+    "Certifications":[
+        {
+            "Name": "AWS Certified Developer – Associate",
+            "Issuer": "Amazon Web Services Training and Certification",
+            "Date": "May 2025"
+        }
+    ]
 }

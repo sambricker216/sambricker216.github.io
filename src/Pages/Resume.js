@@ -135,6 +135,22 @@ function Resume(){
 						</Container>
 					</Accordion.Body>}
 				</AccordionItem>
+				<AccordionItem eventKey='4'>
+					<Accordion.Header>Certifications</Accordion.Header>
+					{accordionData && <Accordion.Body>
+						<Container>
+							{accordionData.Certifications.map((cert, key)=>(
+								<Row>
+									<Col><b>{cert.Name}</b></Col>
+									<Col>
+										<Row>Issuer: {cert.Issuer}</Row>
+										<Row>Date: {cert.Date}</Row>
+									</Col>
+								</Row>
+							))}
+						</Container>
+					</Accordion.Body>}
+				</AccordionItem>
 			</Accordion>
 			<Container style={{float: 'left', marginTop: '2%'}}>
 				<Button onClick={resumeDownload}>Download Resume</Button>

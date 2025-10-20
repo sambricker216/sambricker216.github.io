@@ -16,16 +16,15 @@ export default function Homepage(){
 					</Col>
 					<Col>
 						<p>
-							Hello there. I'm Samuel Bricker, an aspiring software engineer and graduate of
-							the Univeristy of Florida from Boca Raton, FL.
+							Hello there. I'm Samuel Bricker, a software developer at NextEra Energy. I have a
+							BS in Computer Science from the University of Florida and am currently pursuing an MS
+							in Business Analytics from Florida Atlantic University.
 						</p>
 						<p>
-							I am currently looking for my next opportunity to work in the field.  I’m especially 
-							interested in roles related to web development or database engineering, but I’m open 
-							to working in any area. Between my coursework at the University of Florida and previous
-							employment, I've developed experience working in web development (front and back end) and
-							ETL processes. I also have experience working with multiple languages and frameworks, such
-							as Python, SQL, React, and Java.
+							Between my education and work experience, I have developed a strong understanding of data,
+							specifically how to move it, format it, and make it usable. This includes creating
+							ETL pipelines and writing SQL queries that make data avaiable and understandable.
+							I also have experince with Power BI, where I can visualize data the data I extract and form.
 						</p>
 						<p>
 							Further information can be found on my <a href="https://www.linkedin.com/in/samuel-bricker/" target="_blank">

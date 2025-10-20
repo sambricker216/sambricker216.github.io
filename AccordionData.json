@@ -1,22 +1,36 @@
 {
     "Education":[
         {
+            "School": "Florida Atlantic University",
+            "Degree": "Masters of Science in Business Analytics",
+            "Duration": "August 2025 - December 2026",
+            "GPA": "4.00/4.00"
+        },
+        {
             "School": "University of Florida",
-            "Degree": "Bachelor of Science in Computer Science with a Minor in Business Administration",
+            "Degree": "Bachelors of Science in Computer Science with a Minor in Business Administration",
             "Duration": "June 2020 - May 2024",
             "GPA": "3.26/4.00"
         }
     ],
     "WorkExperience":[
         {
+            "Company": "NextEra Energy",
+            "Title": "Programmer Analyst",
+            "Duration": "September 2025 - Present",
+            "Responsibilities": []
+        },
+        {
             "Company": "Skyline Analytics",
             "Title": "Junior ETL Software Engineer",
             "Duration": "December 2024-March 2025",
             "Location": "Boca Raton, FL",
             "Responsibilities": [
-                "Developed and deployed Microsoft Azure function apps to retrieve and store client data from multiple APIs in internal databases",
-                "Designed and optimized database views to enable financial analysts to accurately and clearly assess aggregated client data",
-                "Built an automated testing program to verify that client report emails were correctly sent and formatted from an internal tool"
+                "Designed and deployed Microsoft Azure Function Apps to automate daily data retrieval from multiple third-party APIs",
+                "Cleaned and prepared the retrieved data into internal databases, streamlining access for reporting and analysis",
+                "Built SQL database views and optimized existing ones to aggregate and structure client data for financial analysis in Power BI",
+                "Scripted automated tests for a new internal email tool to ensure client emails were reliably sent and properly formatted",
+                "Reduced storage costs and improved scalability by migrating databases and data from Microsoft SQL Server to PostgreSQL on AWS"
             ]
         },
         {
@@ -25,8 +39,10 @@
             "Duration": "June 2023-October 2024",
             "Location": "Delray Beach, FL",
             "Responsibilities": [
-                "Contributed to backend development by implementing processes for account management, data automation uploads, and building an internal REST API",
-                "Developed a batch processing system that enables users to integrate their data with existing systems, enhancing data accessibility and usability"
+            "Implemented backend processes for account management and automated data uploads to support client onboarding and integration",
+            "Developed a REST API to support communication between backend services and React-based frontend interfaces, improving maintainability and scalability",
+            "Built a batch processing system to integrate user-submitted data with existing internal systems, enabling seamless large-scale data ingestion",
+            "Improved data accessibility and system integration by writing a C++ script to retrieve public records and upload geospatial data to internal databases"
             ]
         },
         {
@@ -42,12 +58,6 @@
         }
     ],
     "Projects":[
-        {
-            "Name": "LanPoker (WIP)",
-            "URL": "https://github.com/sambricker216/lanpoker",
-            "Languages": "Python",
-            "Description": "This is a project I am currently working on to run a CLI based poker game on a LAN. The poker part is being done through object oriented principals, starting at with the Game class. The Game class is responsible for handling game states: generating hands, cycling through hands, determining winning hands, etc. There is also a Player class for handling a specific player's state, such as what cards they have and what actions they take. The websocket will be split in the host, which runs the game class, and the client class, which the players run."
-        },
         {
             "Name": "Personal Site",
             "URL": "https://github.com/sambricker216/personal-site",
@@ -87,14 +97,21 @@
             "Microsoft SQL Server",
             "Postgres DB",
             "Git",
-            "Microsft Azure"
+            "Microsft Azure",
+            "Amazon Web Services",
+            "Microsoft Power BI"
         ]
     },
     "Certifications":[
         {
-            "Name": "AWS Certified Developer – Associate",
+            "Name": "AWS Certified Developer - Associate",
             "Issuer": "Amazon Web Services Training and Certification",
             "Date": "May 2025"
+        },
+        {
+            "Name": "Microsoft Power BI Data Analyst",
+            "Issuer": "Microsoft",
+            "Date": "August 2025"
         }
     ]
 }

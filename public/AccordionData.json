@@ -2,13 +2,13 @@
     "Education":[
         {
             "School": "Florida Atlantic University",
-            "Degree": "Masters of Science in Business Analytics",
-            "Duration": "August 2025 - December 2026",
+            "Degree": "Master of Science in Business Analytics",
+            "Duration": "August 2025 - December 2026 (Expected)",
             "GPA": "4.00/4.00"
         },
         {
             "School": "University of Florida",
-            "Degree": "Bachelors of Science in Computer Science with a Minor in Business Administration",
+            "Degree": "Bachelor of Science in Computer Science with a Minor in Business Administration",
             "Duration": "June 2020 - May 2024",
             "GPA": "3.26/4.00"
         }
@@ -16,44 +16,74 @@
     "WorkExperience":[
         {
             "Company": "NextEra Energy",
-            "Title": "Programmer Analyst",
-            "Duration": "September 2025 - Present",
-            "Responsibilities": []
+            "Location": "Palm Beach Gardens, FL",
+            "Roles": [
+                {
+                    "Title": "Programmer Analyst II",
+                    "Duration": "March 2026 - Present",
+                    "Responsibilities": [
+                        "Refactored daily ETL pipeline for budget prediction application by optimizing SQL queries and removing redundant processing nodes, cutting runtime from 4.5 hours to 75 minutes",
+                        "Added an in-app visualization comparing Weibull lifetime models over time by iteratively censoring and re-aging asset populations at set intervals, speeding up data validation",
+                        "Eliminated intermittent data loss caused by mismatched grouping keys across ETL steps, replacing a non-deterministic, sort-dependent asset ID key with a stable location key",
+                        "Enabled natural-language document retrieval in an internal AI chat tool by building a middleware layer that translates LLM-extracted parameters into formatted DQL metadata queries"
+                    ]
+                },
+                {
+                    "Title": "Programmer Analyst",
+                    "Duration": "September 2025 - March 2026",
+                    "Responsibilities": [
+                        "Onboarded an internal customer to the budget prediction application, adapting it to their business processes and replacing manual spreadsheets with an automated system of record",
+                        "Deployed AWS infrastructure with CDK, including Step Functions pipelines orchestrating ECS tasks, an RDS PostgreSQL database, and a UI/API, under a tightly restricted IAM build role",
+                        "Diagnosed and resolved silent data loss in an ETL pipeline caused by an upstream source data change, restoring 30% of records and enabling lifetime modeling for previously excluded assets"
+                    ]
+                }
+            ]
         },
         {
             "Company": "Skyline Analytics",
-            "Title": "Junior ETL Software Engineer",
-            "Duration": "December 2024-March 2025",
             "Location": "Boca Raton, FL",
-            "Responsibilities": [
-                "Designed and deployed Microsoft Azure Function Apps to automate daily data retrieval from multiple third-party APIs",
-                "Cleaned and prepared the retrieved data into internal databases, streamlining access for reporting and analysis",
-                "Built SQL database views and optimized existing ones to aggregate and structure client data for financial analysis in Power BI",
-                "Scripted automated tests for a new internal email tool to ensure client emails were reliably sent and properly formatted",
-                "Reduced storage costs and improved scalability by migrating databases and data from Microsoft SQL Server to PostgreSQL on AWS"
+            "Roles": [
+                {
+                    "Title": "Junior ETL Software Engineer",
+                    "Duration": "December 2024 - March 2025",
+                    "Responsibilities": [
+                        "Automated daily ingestion of client financial data by building ETL integrations in Azure Functions that extracted, cleaned, and loaded POS, HR, and compensation data into SQL databases",
+                        "Delivered report-ready datasets for analysts in Power BI by building and optimizing SQL views that aggregate and structure client financial data from the ETL output",
+                        "Reduced storage costs and improved scalability by migrating client databases from Microsoft SQL Server to PostgreSQL on AWS RDS, converting schemas and views and validating migrated data",
+                        "Scripted automated tests for a new internal email tool to ensure client emails were reliably sent and properly formatted"
+                    ]
+                }
             ]
         },
         {
             "Company": "Agency Pipe",
-            "Title": "Software Engineering Intern",
-            "Duration": "June 2023-October 2024",
             "Location": "Delray Beach, FL",
-            "Responsibilities": [
-            "Implemented backend processes for account management and automated data uploads to support client onboarding and integration",
-            "Developed a REST API to support communication between backend services and React-based frontend interfaces, improving maintainability and scalability",
-            "Built a batch processing system to integrate user-submitted data with existing internal systems, enabling seamless large-scale data ingestion",
-            "Improved data accessibility and system integration by writing a C++ script to retrieve public records and upload geospatial data to internal databases"
+            "Roles": [
+                {
+                    "Title": "Software Engineering Intern",
+                    "Duration": "June 2023 - October 2024",
+                    "Responsibilities": [
+                        "Implemented backend processes for account management and automated data uploads to support client onboarding and integration",
+                        "Developed a REST API to support communication between backend services and React-based frontend interfaces, improving maintainability and scalability",
+                        "Built a batch processing system to integrate user-submitted data with existing internal systems, enabling seamless large-scale data ingestion",
+                        "Improved data accessibility and system integration by writing a C++ script to retrieve public records and upload geospatial data to internal databases"
+                    ]
+                }
             ]
         },
         {
             "Company": "Family Business Funding",
-            "Title": "Information Technology Intern",
-            "Duration": "January 2023-December 2023",
             "Location": "Boca Raton, FL",
-            "Responsibilities": [
-                "Directed the transition to OrgMeter, an external CRM software, to streamline business operations and ensure data organization",
-                "Facilitated communication between employees and CRM software development teams, ensuring the software met both employee and client needs",
-                "Led the migration of data for over 1,000 clients into customer relationship management (CRM) software"
+            "Roles": [
+                {
+                    "Title": "IT Intern",
+                    "Duration": "January 2023 - December 2023",
+                    "Responsibilities": [
+                        "Configured the OrgMeter CRM to match the company's business processes, setting up applicant workflow stages, payment status tracking, and role-based access control (RBAC)",
+                        "Ensured the software met employee and client needs by acting as the liaison between nontechnical staff and the vendor's developers, translating feedback into feature requests",
+                        "Consolidated records for 1,000+ clients into a single system of record by transferring data from spreadsheets and PDF contracts into the new platform"
+                    ]
+                }
             ]
         }
     ],
@@ -61,27 +91,27 @@
         {
             "Name": "Personal Site",
             "URL": "https://github.com/sambricker216/personal-site",
-            "Languages": "React, Javascript, CSS",
-            "Description": "This is the project you're looking at right now. It's my chance to compile everything I've done into one, easy access location. All my projects, work experience, langauge and framework knowledge are all listed here. My resume can also be previewed and downloaded at the bottom of the page."
+            "Languages": "React, JavaScript, CSS",
+            "Description": "This is the project you're looking at right now. It's my chance to compile everything I've done into one easy-to-access location. My projects, work experience, and language and technology knowledge are all listed here. My resume can also be previewed and downloaded from this page."
         },
         {
             "Name": "Pixel Pundits",
             "URL": "https://github.com/SkylarStewart/Pixel-Pundits",
             "Host": "https://skylarstewart.github.io/Pixel-Pundits/#/login?redirectTo=/",
-            "Languages": "React, Javascript, Typescript, CSS",
-            "Description": "This is my Senior Project I worked on at the University of Florida. It is a web app that serves as a trading platform for players of the Magic the Gathering trading card game. The app works like a digital marketplace where users can upload their collection, search for cards they want, and offer to trade cards with other users. I was involved with most of the front end development, designing many of the page layouts and overall UI. I also designed the API calls to the Scryfall API, where we got data about the card (including images and pricing)."
+            "Languages": "React, JavaScript, TypeScript, CSS",
+            "Description": "This is my Senior Project at the University of Florida. It is a web app that serves as a trading platform for players of the Magic: The Gathering trading card game. The app works like a digital marketplace where users can upload their collection, search for cards they want, and offer to trade cards with other users. I was involved with most of the front-end development, designing many of the page layouts and the overall UI. I also designed the API calls to the Scryfall API, which provided card data including images and pricing."
         },
         {
             "Name": "Contagion Simulator",
             "URL": "https://github.com/sambricker216/ContagionSim",
             "Languages": "Python",
-            "Description": "Inspired by the recent COVID pandemic, I wanted to create a way to simulate virus transmission within a population. To this end, I created the Contagion Simulator. The program works by taking in a variety of user set factors, such as population size, lethality, and immunity. It then runs randomly generated cycles to see various outcomes of those inputs. For example, if a user wanted to see what effect natural immunity header on the spread of a virus, they could set the built up immunity value to really high. The UI is built through the Pygame library."
+            "Description": "Inspired by the COVID pandemic, I wanted to create a way to simulate virus transmission within a population. The program takes in a variety of user-set factors, such as population size, lethality, and immunity, then runs randomly generated cycles to see the various outcomes of those inputs. For example, a user who wanted to see the effect of natural immunity on the spread of a virus could set the built-up immunity value very high. The UI is built with the Pygame library."
         },
         {
             "Name": "Calculator",
             "URL": "https://github.com/sambricker216/Calculator",
             "Languages": "Java",
-            "Description": "This project was influenced by the semester long project of the University of Florida's Programming Langauge Concepts course. The goal of this project was to take a fictional programming langauge and convert it into executable Java code. This was done by taking the fictional code through a series of steps: breaking the text down into tokens through regex, grouping the tokens into abstract syntax trees, type checking the values, and finally transalting from there. The Calculator is built on that premise. The user provides a mathematical expression that is ran through a similar series of steps, except a calulation is made instead of translating to Java code. The UI was done through JFrame and testing was done through JUnit."
+            "Description": "This project was influenced by the semester-long project of the University of Florida's Programming Language Concepts course, where the goal was to take a fictional programming language and convert it into executable Java code. That was done through a series of steps: breaking the text down into tokens with regex, grouping the tokens into abstract syntax trees, type checking the values, and finally translating the result. The Calculator is built on that premise: the user provides a mathematical expression that is run through a similar series of steps, except a calculation is made instead of translating to Java code. The UI was built with JFrame and testing was done with JUnit."
         }
     ],
     "LT":{
@@ -89,17 +119,25 @@
             "Python",
             "SQL",
             "Java",
-            "React/Javascript",
+            "React/JavaScript",
             "C++",
             "C#/.NET"
         ],
         "Technologies":[
+            "Amazon Web Services (AWS)",
             "Microsoft SQL Server",
-            "Postgres DB",
-            "Git",
-            "Microsft Azure",
-            "Amazon Web Services",
-            "Microsoft Power BI"
+            "PostgreSQL",
+            "Microsoft Power BI",
+            "Microsoft Azure / Azure Functions",
+            "Git"
+        ],
+        "DataEngineering":[
+            "ETL/ELT",
+            "Query Optimization",
+            "Data Modeling",
+            "Data Validation",
+            "API Integration",
+            "Data Migration"
         ]
     },
     "Certifications":[

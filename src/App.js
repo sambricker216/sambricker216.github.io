@@ -1,18 +1,25 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 import Homepage from './Pages/Homepage';
 import Resume from './Pages/Resume';
-import { Modal, Button } from 'react-bootstrap';
 
 function App() {
   return (
-    <div className="App-header" style={{'min-height': '100vh'}}>
-      <h2 class='title'>Welcome to My Website</h2>
-      <hr class="solid"></hr>
-      <Homepage/>
-      <Resume/>
+    <div className="App-header">
+      <header className="site-header">
+        <h1 className="title">Samuel Bricker</h1>
+        <p className="subtitle">Programmer Analyst II &middot; Data Engineering &middot; Delray Beach, FL</p>
+      </header>
+      <hr className="solid" />
+      <main className="site-main">
+        <Homepage />
+        <Resume />
+      </main>
+      <footer className="site-footer">
+        &copy; {new Date().getFullYear()} Samuel Bricker
+      </footer>
     </div>
-  )
+  );
 }
 
 export default App;

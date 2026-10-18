@@ -17,19 +17,20 @@ export default function Homepage(){
 					<h2 className="section-title">About Me</h2>
 					<p>
 						Hello there. I'm Samuel Bricker, a software developer at NextEra Energy. I have a
-						BS in Computer Science from the University of Florida and am currently pursuing an MS
-						in Business Analytics from Florida Atlantic University.
+						B.S. in Computer Science from the University of Florida and am currently pursuing an M.S.
+						in Business Analytics from Florida Atlantic University, which I plan to complete in Dec 2026.
 					</p>
 					<p>
-						Between my education and work experience, I have developed a strong understanding of data,
-						specifically how to move it, format it, and make it usable. This includes creating
-						ETL pipelines and writing SQL queries that make data avaiable and understandable.
-						I also have experince with Power BI, where I can visualize data the data I extract and form.
+						Between my education and work experience, I have developed a strong understanding of how
+						data is modeled and used in the business space and how to transform data to make it usable. 
+						This includes creating ETL pipelines and writing SQL queries that make data 
+						available and understandable. I also have experience with Power BI, visualizing the data extracted 
+						and formed by ETL.
 					</p>
 					<p>
 						Further information can be found on my <a href="https://www.linkedin.com/in/samuel-bricker/" target="_blank" rel="noreferrer">
 						LinkedIn</a> and <a href="https://github.com/sambricker216" target="_blank" rel="noreferrer"> GitHub </a> pages. I can also be
-						reached by email at sbricker216@gmail.com.
+						reached by email at <a href="mailto:sbricker216@gmail.com">sbricker216@gmail.com</a>.
 					</p>
 				</Col>
 			</Row>
